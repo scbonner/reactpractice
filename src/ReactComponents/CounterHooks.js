@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-function Example() {
+function CounterHooks() {
      const [count, setCount] = useState(0); 
         return(
             <div>
@@ -14,5 +14,4 @@ function Example() {
       );
     }
 
-export default Example;
- 
+export default CounterHooks;
